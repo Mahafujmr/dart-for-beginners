@@ -53,6 +53,8 @@ void main(){
   // remove last element
   studentName.removeLast();
   print(studentName);
+  //  list element access use index number
+  print(studentName[0]);
 
 
 
