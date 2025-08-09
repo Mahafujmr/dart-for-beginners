@@ -22,6 +22,7 @@ add()--> new element add
 addAll()--> multiple element add
 remove --> any single element remove
 removeAt--> Removes the element at the specified index from the list
+removeLast --> Remove last element
 
 
  */
@@ -48,6 +49,9 @@ void main(){
   print(studentName);
   // removeAt-> index number call and then remove element
   studentName.removeAt(0); // result -> Remove Tuhin
+  print(studentName);
+  // remove last element
+  studentName.removeLast();
   print(studentName);
 
 
