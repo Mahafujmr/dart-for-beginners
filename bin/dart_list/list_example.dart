@@ -19,6 +19,9 @@ reversed -> show list elements from last to first.
 empty-> true if the list has no elements
 isNotEmpty -> true if the list one or more element
 add()--> new element add
+addAll()--> multiple element add
+remove --> any single element remove
+
 
  */
 
@@ -38,6 +41,9 @@ void main(){
   print(studentName);
   // addAll()--> multiple element add
   studentName.addAll(['Shakib','Masrafi','Rakib']);
+  print(studentName);
+  // remove -> any single element remove
+  studentName.remove('Rakib');
   print(studentName);
 
 
