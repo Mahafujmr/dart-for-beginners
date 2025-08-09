@@ -18,15 +18,28 @@ length-> Returns the total element number in the list.
 reversed -> show list elements from last to first.
 empty-> true if the list has no elements
 isNotEmpty -> true if the list one or more element
+add()--> new element add
+
  */
 
 void main(){
   List <String> studentName = ['Tuhin','Toma','Mahafuja','My Father','Karim'];
   print(studentName);
+  // list  properties
   print(studentName.first);
   print(studentName.last);
   print(studentName.length);
   print(studentName.reversed);
   print(studentName.isEmpty);
+  print(studentName.isNotEmpty);
+  //print(studentName.single); // don't use cause there are many element in my list
+  // add()-> new element add
+  studentName.add('Tamim');
+  print(studentName);
+  // addAll()--> multiple element add
+  studentName.addAll(['Shakib','Masrafi','Rakib']);
+  print(studentName);
+
+
 
 }
