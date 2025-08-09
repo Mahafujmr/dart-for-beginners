@@ -55,6 +55,12 @@ void main(){
   print(studentName);
   //  list element access use index number
   print(studentName[0]);
+  // itteratiton mode multiple same element remove
+  studentName.addAll(['Rahim','Rahim','Rahim']);
+  print(studentName);
+  // multiple same element remove --> use removeWhere
+  studentName.removeWhere((element) => element == 'Rahim');
+  print(studentName);
 
 
 
