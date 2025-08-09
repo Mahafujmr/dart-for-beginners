@@ -21,6 +21,7 @@ isNotEmpty -> true if the list one or more element
 add()--> new element add
 addAll()--> multiple element add
 remove --> any single element remove
+removeAt--> Removes the element at the specified index from the list
 
 
  */
@@ -44,6 +45,9 @@ void main(){
   print(studentName);
   // remove -> any single element remove
   studentName.remove('Rakib');
+  print(studentName);
+  // removeAt-> index number call and then remove element
+  studentName.removeAt(0); // result -> Remove Tuhin
   print(studentName);
 
 
