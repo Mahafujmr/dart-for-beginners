@@ -25,6 +25,7 @@ removeAt--> Removes the element at the specified index from the list
 removeLast --> Remove last element
 elementAt--> Access list element use index number
 insert--> list any place element add use index number
+insertAll--> List any place element add use index number
 
 
  */
@@ -67,6 +68,9 @@ void main(){
   print(studentName.elementAt(2));
   //new element add list any place use -> insert (index number, element)
   studentName.insert(1, 'MR');
+  print(studentName);
+  // insertAll- list any place element add
+  studentName.insertAll(3, ['MT',"MG"]);
   print(studentName);
 
 
