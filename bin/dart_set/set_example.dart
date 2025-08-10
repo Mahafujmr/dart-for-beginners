@@ -15,6 +15,10 @@ last--> return last element
 length--> show total element number
 isEmpty--> have any element print- false, no element after print-true
 isNotEmpty --> Have any element print- true, no element after print - false
+----> Set methods---->
+add()-- > single element add
+addAll()--> multiple element add
+remove()--> single element remove
 
  */
 void main(){
@@ -30,5 +34,14 @@ void main(){
   print(serialRollNumber.length); // show total element number
   print(serialRollNumber.isEmpty); // check true or false
   print(serialRollNumber.isNotEmpty); // check true or false
+  // print(serialRollNumber.single);-> set is not single
+  // set all method
+  serialRollNumber.add(100); // add single element
+  print(serialRollNumber);
+  serialRollNumber.addAll([200,300,400]); // add multiple element
+  print(serialRollNumber);
+  serialRollNumber.remove(400); // remove single element
+  print(serialRollNumber);
+
 
 }
