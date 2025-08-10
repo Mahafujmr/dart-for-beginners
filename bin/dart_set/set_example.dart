@@ -10,7 +10,11 @@ example-> Set number = {1,3,4,5,6};
 3. Set <double> cgpa= {add double};-> double type set
 4-. Set <bool> rightName = {};-> boolean Type set
 ----> Set Properties ---->
-
+first--> return first element
+last--> return last element
+length--> show total element number
+isEmpty--> have any element print- false, no element after print-true
+isNotEmpty --> Have any element print- true, no element after print - false
 
  */
 void main(){
@@ -24,7 +28,7 @@ void main(){
   print(serialRollNumber.first); // return first element
   print(serialRollNumber.last);// return last element
   print(serialRollNumber.length); // show total element number
-  print(serialRollNumber.isEmpty); // check
-  print(serialRollNumber.isNotEmpty);
+  print(serialRollNumber.isEmpty); // check true or false
+  print(serialRollNumber.isNotEmpty); // check true or false
 
 }
