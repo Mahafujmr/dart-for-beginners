@@ -23,6 +23,7 @@ addAll()--> multiple element add
 remove --> any single element remove
 removeAt--> Removes the element at the specified index from the list
 removeLast --> Remove last element
+elementAt--> Access list element use index number
 
 
  */
@@ -61,6 +62,8 @@ void main(){
   // multiple same element remove --> use removeWhere
   studentName.removeWhere((element) => element == 'Rahim');
   print(studentName);
+  // elementAt-> list element access use index number
+  print(studentName.elementAt(2));
 
 
 
