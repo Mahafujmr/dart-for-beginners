@@ -20,6 +20,7 @@ add()-- > single element add
 addAll()--> multiple element add
 remove()--> single element remove
 elementAt--> single element access use
+clear--> clear this set
 
  */
 void main(){
@@ -36,7 +37,7 @@ void main(){
   print(serialRollNumber.isEmpty); // check true or false
   print(serialRollNumber.isNotEmpty); // check true or false
   // print(serialRollNumber.single);-> set is not single
-  // set all method
+  // set all methods
   serialRollNumber.add(100); // add single element
   print(serialRollNumber);
   serialRollNumber.addAll([200,300,400]); // add multiple element
@@ -44,6 +45,11 @@ void main(){
   serialRollNumber.remove(400); // remove single element
   print(serialRollNumber);
   print(serialRollNumber.elementAt(3));// single element access use index number
+  serialRollNumber.removeWhere((element) => element== 300);
+  print(serialRollNumber);
+serialRollNumber.clear(); // clear this set
+print(serialRollNumber);
+
 
 
 
