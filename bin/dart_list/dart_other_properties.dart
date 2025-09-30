@@ -35,6 +35,7 @@ void main() {
   print(rollNumber);
   rollNumber.clear();// clear this list
   print(rollNumber);
+  print('----Dart List Properties---');
 
 
 }
