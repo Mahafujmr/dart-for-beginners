@@ -15,27 +15,10 @@ insertAll - use index number and multiple element add
 
  */
 void main() {
-  List<int> rollNumber = [1,2,3,4,5,6];
-  print(rollNumber);
-  rollNumber.remove(1); // 1 value remove this list
-  print(rollNumber);
-  rollNumber.removeAt(0); // use index number and then remove value
-  print(rollNumber);
-  rollNumber.removeLast();
-  print(rollNumber);
-  rollNumber.removeRange(0, 2); // remove item index 0 or 2 before element
-  print(rollNumber);
-  rollNumber.add(8); //new value add
-  print(rollNumber);
-  rollNumber.addAll([9,10,22,]); // add multiple element
-  print(rollNumber);
-  rollNumber.insert(1, 100); // insert new element use index number
-  print(rollNumber);
-  rollNumber.insertAll(2, [200,300,400]); // insert multiple element add
-  print(rollNumber);
-  rollNumber.clear();// clear this list
-  print(rollNumber);
-  print('----Dart List Properties---');
+ List<int> number = [1,2,3,4,5,6];
+ print('Orginal List = $number');
+ print('---- Dart Other Properties');
+
 
 
 }
