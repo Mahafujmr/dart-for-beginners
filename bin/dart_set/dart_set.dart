@@ -33,4 +33,8 @@ print('String Type Sets = $cricketerNames\n');
 Set<bool> studentsInformation = {true, false};
 print('Boolean Type Sets = $studentsInformation');
 
+// remove duplicate values
+Set<int> duplicateNumber = {1,2,3,1,2,3,4,5,6};
+print('Remove Duplicate Elements (1,2,3) = $duplicateNumber ');
+
 }
