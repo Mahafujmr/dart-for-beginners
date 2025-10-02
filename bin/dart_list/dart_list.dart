@@ -5,7 +5,7 @@ List<data type name> variable_name = [ value ];
 List <int> number = [3,4,5,6];
  */
 void main() {
-  // list creation
+  print('----List Creation-----');
   // string type
   List<String> userName = ['Tuhin','Tamim','Takim','Tusher'];
   print('String type List = $userName');
@@ -21,8 +21,7 @@ void main() {
   // var type list
   var studentInformation = ['Tuhin',1,3.59,false];
   print('Var type List = $studentInformation');
-  List name = [1,3.55,true];
-  print(name);
-  dynamic grade = [2,3,4,];
-  print(grade);
+  // dynamic type list
+  List<dynamic> productList = [ 1,'Mobile',2,'Laptop',3, 'Computer'];
+  print('Dynamic Type List = $productList');
 }
