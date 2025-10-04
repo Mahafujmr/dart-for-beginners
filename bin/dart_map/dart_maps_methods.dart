@@ -1,5 +1,10 @@
 // dart maps methods
  void main() {
-  print('Hello word');
+  Map<int, String> mobileBand ={
+    1: "Opo",
+    2: "Realme",
+
+  };
+  print(mobileBand);
 
 }
