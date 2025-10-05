@@ -26,5 +26,11 @@ void main() {
   // get keys and values pair
   print('Get Keys and Values = ${countryList.entries}');
   print('dart maps');
+  // check - maps key
+  // have any key => Result - true
+  print('Check have any key = ${countryList.containsKey(3)}');
+  // not have any key => Result - false
+  print('Check have any key = ${countryList.containsKey(7)}');
+
 
 }
