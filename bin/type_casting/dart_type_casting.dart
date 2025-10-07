@@ -26,5 +26,14 @@ void main() {
    */
   String name = addResult.toString();
   print('Double convert String = $name');
+  // data type check - runTime type
+  print(name.runtimeType);
+  print(addResult.runtimeType);
+  // .parse use
+  int singleNumber = int.parse('100');
+  print(singleNumber+100);
+  double addNumber = double.tryParse('222f') ?? 10;
+  print(addNumber+100);
+
 
 }
