@@ -10,15 +10,21 @@ void main() {
    result.toInt()- convert integer
    */
   int rollResult = roll + result.toInt();
-  print(rollResult);
+  print('Double convert Int = $rollResult');
   /*
   int type casting to double
   use intValue.to double
    */
   double addResult = roll.toDouble() + result;
-  print(addResult);
+  print('Int convert Double = $addResult');
   // just show 2 or 1 number i mean fixed number show
   // syntax = doubleVariable.toStringAsFixed
   print(addResult.toStringAsFixed(2));
+  /*
+  string convert use - .toString(),
+  addResult - double- convert string
+   */
+  String name = addResult.toString();
+  print('Double convert String = $name');
 
 }
