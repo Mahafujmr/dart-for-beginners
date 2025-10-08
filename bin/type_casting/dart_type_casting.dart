@@ -11,6 +11,8 @@ void main() {
    */
   int rollResult = roll + result.toInt();
   print('Double convert Int = $rollResult');
+  print(rollResult.runtimeType);
+
   /*
   int type casting to double
   use intValue.to double
@@ -20,6 +22,8 @@ void main() {
   // just show 2 or 1 number i mean fixed number show
   // syntax = doubleVariable.toStringAsFixed
   print(addResult.toStringAsFixed(2));
+  print('Check data type = ${addResult.runtimeType}');
+
   /*
   string convert use - .toString(),
   addResult - double- convert string
@@ -29,11 +33,11 @@ void main() {
   // data type check - runTime type
   print(name.runtimeType);
   print(addResult.runtimeType);
+
   // .parse use
   int singleNumber = int.parse('100');
-  print(singleNumber+100);
+  print(singleNumber+100.3);
   double addNumber = double.tryParse('222f') ?? 10;
   print(addNumber+100);
-
 
 }
