@@ -3,7 +3,7 @@
 dart if condition => check just one condition
 syntax = create variable and value
 if(condition){
-print(your result)
+print(your result);
 }
  */
  void main() {
