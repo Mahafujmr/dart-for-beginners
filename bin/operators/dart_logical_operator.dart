@@ -3,6 +3,7 @@
 Logical AND = && ; A && B -> A and and B
 Logical OR = || ; A || B -> A or B
 Logical NOT = ! ; A ! B  -> A not B
+Logical operator result = bool(true or false)
  */
 void main() {
  int userId = 1234;

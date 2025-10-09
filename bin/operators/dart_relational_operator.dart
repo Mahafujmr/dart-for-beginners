@@ -5,7 +5,7 @@
 3) Less than  < | a < b | 10 < 5; is false
 4) less than or equal <= | a <= b | 10 <= 5 ; false
 5) is equal to == | a == b | 10 == 5 ; false
-6) not equal to != | a != b | 10 != 5; false
+6) not equal to != | a != b | 10 != 5; true
  */
 void main() {
   int a = 10;

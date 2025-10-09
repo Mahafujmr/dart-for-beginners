@@ -2,7 +2,7 @@
 /*
 Dart Unary operator--->increment || decrement
 increment => (postfix) => a= 10; || a++, a--
-(a++) = 10, a= 11 || (a--) = 9,
+(a++) = 10, a= 11 || (a--) = 10, a= 9
 decrement => (prefix)  => a =10; || ++a, --a
 (++a) = 11, a= 12 || (--a) = 9 ,
  */
