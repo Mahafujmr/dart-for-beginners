@@ -1,6 +1,6 @@
 // if logical or example
 void main() {
-  int result = 66;
+  int result = 80;
   if(result >= 80 || result <= 100){
     print('A+');
   }else if (result >= 70 || result <= 80){
@@ -13,5 +13,10 @@ void main() {
     print('C');
   }else{
     print('Invalid number');
+  }
+  if(result >=80 && result <=100){
+    print('The student is pass');
+  }else{
+    print('Not pass');
   }
 }
