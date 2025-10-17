@@ -833,7 +833,7 @@ for(int a =0; a<=50; a++){
 }
 }
 ````
-#### Dart For Each Loop
+#### Dart For IN Loop
 ````dart
 // dart for each loop
 /*
@@ -857,5 +857,21 @@ void main() {
   for(String usrName in userList.values){
     print('Name = $usrName');
   }
+}
+````
+#### Dart For Each Loop Example: 
+````dart
+void main() {
+  // creation list
+  print('List of For Each Loop');
+  List<String> studentName = ['Tuhin', 'Toma', 'Sormila'];
+  for (String name in studentName) {
+    print('Student Name List = $name');
+  }
+  // creation for each loop
+  print('For Each Loop');
+  studentName.forEach((element){
+    print(element);
+  });
 }
 ````
