@@ -1,6 +1,8 @@
 // dart function syntax
 void main() {
   welcomeHome(); // function call
+  welcomeHome(); // function call
+  welcomeHome(); // function call
 }
 
 // Function declare
