@@ -7,6 +7,9 @@ toLowerCase() - all text small letter show
  */
  void main() {
   String name = 'Tuhin';
+  // String add +
+  String fullName = "Tuhin " "Mahafuj";
+  print(fullName);
   // string multiline
   String address = """
   Tuhin
