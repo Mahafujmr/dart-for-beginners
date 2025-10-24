@@ -7,6 +7,13 @@ toLowerCase() - all text small letter show
  */
  void main() {
   String name = 'Tuhin';
+  // string multiline
+  String address = """
+  Tuhin
+  Kushtia
+  0165044444
+  """;
+  print('String MultiLine = $address');
   print(name);
   print('String length = ${name.length}');
   print('String Text Capital Letter = ${name.toUpperCase()}');
