@@ -9,4 +9,6 @@ toLowerCase() - all text small letter show
   String name = 'Tuhin';
   print(name);
   print('String length = ${name.length}');
+  print('String Text Capital Letter = ${name.toUpperCase()}');
+  print('String Text Small Letter = ${name.toLowerCase()}');
 }
