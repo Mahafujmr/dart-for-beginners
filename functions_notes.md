@@ -124,3 +124,31 @@ void main() {
 }
 
 ````
+#### Return Type function 
+````dart
+// dart return type function
+void main() {
+  // function call
+  print(add(33, 22));
+}
+// function declare
+add (int number , double numberOne){
+  double totalResult = number +numberOne;
+  // input return
+  return totalResult ; // 33+22=55.0
+}
+````
+#### Function (Call data type)
+````dart
+// return data type function
+// this is double type function
+double totalNumber (int a , double b ){
+  double number = a+b;
+  // variable return type this function
+  // return - keyword || number - variable name
+  return number ;
+}
+void main() {
+  print(totalNumber(22, 33));
+}
+````
