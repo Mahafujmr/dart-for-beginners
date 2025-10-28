@@ -9,6 +9,13 @@ welcomeHome() {
   
 }
 ````
+#### Function Syntax 
+````dart
+return-type  function-name(parameters){
+  
+  body
+} 
+````
 #### Function Example :01
 ````dart
 // dart function syntax
