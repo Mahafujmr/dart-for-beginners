@@ -1,5 +1,4 @@
-# Dart Null Safety
-# 🎯 Dart Null Safety - সহজ গাইড
+### 🎯 Dart Null Safety - সহজ গাইড
 
 > Dart এ Null Safety বুঝার এবং ব্যবহার করার quick guide
 
@@ -38,7 +37,7 @@ late String connection;
 
 ---
 
-### Null Safety Operators
+#### Null Safety Operators
 
 | Operator | নাম | কাজ | Example |
 |----------|-----|-----|---------|
@@ -48,11 +47,40 @@ late String connection;
 | `??=` | Assign if Null | null হলে assign | `name ??= "Default"` |
 | `!` | Force Non-null ⚠️ | জোর করে non-null | `name!.length` |
 
+#### All Operators in Action
+```dart
+void main() {
+  // 1. ? - Nullable type
+  String? userName;
+  
+  // 2. ?. - Safe navigation
+  print("Length: ${userName?.length}");  // Output: Length: null
+  
+  // 3. ?? - Default value
+  print("User: ${userName ?? 'Guest'}");  // Output: User: Guest
+  
+  // 4. ??= - Assign if null
+  userName ??= "Rakib";
+  print("After assign: $userName");  // Output: After assign: Rakib
+  
+  // 5. ! - Force non-null (use carefully!)
+  print("Length: ${userName!.length}");  // Output: Length: 5
+}
+```
+
+**Output:**
+```
+Length: null
+User: Guest
+After assign: Rakib
+Length: 5
+```
+
 ---
 
 ### Quick Examples
 
-### Basic Usage
+#### Basic Usage
 ```dart
 String? name;
 
@@ -71,7 +99,7 @@ print(name ?? "Guest");  // null হলে "Guest"
 name ??= "Default";  // null হলে assign হবে
 ```
 
-### Real Use Case
+#### Real Use Case
 ```dart
 class User {
   String name;
@@ -138,7 +166,7 @@ String result = text?.trim().toUpperCase() ?? "EMPTY";
 
 #### Error & Solutions
 
-### Error 1: Can't assign null
+#### Error 1: Can't assign null
 ```dart
 // ❌ Error
 String name = null;
@@ -147,7 +175,7 @@ String name = null;
 String? name = null;
 ```
 
-### Error 2: Can't access property
+#### Error 2: Can't access property
 ```dart
 // ❌ Error
 print(name.length);
@@ -156,7 +184,7 @@ print(name.length);
 print(name?.length);
 ```
 
-### Error 3: Late not initialized
+##### Error 3: Late not initialized
 ```dart
 // ❌ Error
 late String name;

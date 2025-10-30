@@ -10,5 +10,5 @@ void main() {
   int ? age ; // nullable type
   print(age);
   print(age ?? 22); // condition check then print value
-  print(address ?? "Kushtia");
+  print(address ?? "Dhaka");
 }
