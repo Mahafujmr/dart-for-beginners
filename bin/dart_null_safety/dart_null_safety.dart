@@ -5,4 +5,9 @@ void main() {
   String ? address; // this is nullable type
   print(address);
   print(name);
+
+  // first check null - if this type is null then other value print
+  int ? age ; // nullable type
+  print(age);
+  print(age ?? 22); // condition check then print value
 }
