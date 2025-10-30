@@ -8,4 +8,5 @@ double totalNumber (int a , double b ){
 }
 void main() {
   print(totalNumber(22, 33));
+  print(totalNumber(25, 25));
 }
