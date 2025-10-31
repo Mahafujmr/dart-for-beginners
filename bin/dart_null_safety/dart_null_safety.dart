@@ -11,4 +11,9 @@ void main() {
   print(age);
   print(age ?? 22); // condition check then print value
   print(address ?? "Dhaka");
+
+  // null use =>list
+ // List<int> number = [1,2,3,4,null]; // null not support
+  List<int?> number = [ 1,2,3,null]; // null is support
+  print(number);
 }
