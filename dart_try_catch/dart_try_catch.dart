@@ -20,7 +20,11 @@ void main() {
     String ? yourAge = stdin.readLineSync();
     // age = int so type casting
     int age = int.parse(yourAge!);
-    print('Your age is = $age');
+    if(age > 20){
+      print('You age adult');
+    }else{
+      print('You are young');
+    }
   }catch (error){
     print('Error Code = $error'); // try block any error - show catch block
   }
