@@ -17,14 +17,12 @@ void main() {
   // use try catch
   try {
     print('Enter Your Age :');
+    //  int age = int.parse(stdin.readLineSync() ?? '0');
     String ? yourAge = stdin.readLineSync();
     // age = int so type casting
     int age = int.parse(yourAge!);
-    if(age > 20){
-      print('You age adult');
-    }else{
-      print('You are young');
-    }
+    // this is if else condition
+    age >20? print('You are young'): print('You are adult');
   }catch (error){
     print('Error Code = $error'); // try block any error - show catch block
   }
