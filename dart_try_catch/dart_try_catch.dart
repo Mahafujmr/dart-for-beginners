@@ -1,12 +1,27 @@
 // dart try catch
+/*
+// try - any logic condition this part
+// catch - try block any error -show catch block
+==== > try catch syntax ====>
+try {
+ code
+ condition - logic
+ }catch(variable name ) {
+ print(this variable);
+ }
+ */
+
 import 'dart:io';
 
 void main() {
- print('Your Age is :');
- String ? youAge = stdin.readLineSync();
- int age = int.parse(youAge!);
- print('My Age is = $age');
- print('Your name :');
- String? yourName = stdin.readLineSync();
- print('My Name is = $yourName');
+  // use try catch
+  try {
+    print('Enter Your Age :');
+    String ? yourAge = stdin.readLineSync();
+    // age = int so type casting
+    int age = int.parse(yourAge!);
+    print('Your age is = $age');
+  }catch (error){
+    print('Error Code = $error'); // try block any error - show catch block
+  }
 }
