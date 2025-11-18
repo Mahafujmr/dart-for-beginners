@@ -4,6 +4,7 @@ void main() {
   // var type variable creation
   var rollNumber = 10; // var means this is int
   var result = 3.33; // this is double
+  //result = 'tuhin'; // can not change type
 
   var studentName = 'Tuhin'; // this is String
   var isStudent = true; // this is boolean
